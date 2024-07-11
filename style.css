@@ -1,0 +1,383 @@
+
+
+/* header part start */
+
+header{
+    
+background-color: #fff;
+    
+width: 76%;
+margin:auto ;
+display: flex;
+justify-content: space-between;
+padding-top: 40px;
+padding-bottom: 50px;
+}
+
+.logo{
+width: 15%;
+}
+
+.logo h1{
+   font-size: 28px;
+   font-weight: bold;
+   color: black;
+   margin-top: 15px;
+}
+
+
+.Resume h4{
+  color: black;
+  margin-top: 20px;
+  border: 1px solid;
+  font-size: 18px;
+  margin-bottom: 15px;
+  margin-right: 50px;
+}
+.Resume h4:hover{
+    color:#fff;
+    background-color: black;
+}
+
+/* header part end */
+
+/* banner part start */
+
+.banner{
+  background-image: url(imeges/Hero-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner{
+display: flex;
+
+justify-content: center;
+}
+
+.banner_content img{
+margin-left: 200px;
+margin-bottom: 30px;
+}
+
+.banner_content h1{
+  font-size:30px;
+  align-items: center;
+}
+
+.banner_content p{
+  margin-left: 60px;
+  margin-top: 20px;
+  color: #0D1321;
+}
+
+.banner_content button{
+  font-size: 18px;
+  background-color: rgb(2, 2, 27);
+  color: #fff;
+  margin-top: 20px;
+  margin-left:240px ;
+  padding: 12px 15px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.banner_content button:hover{
+ background-color: #fff;
+ color: rgb(2, 2, 27);
+}
+
+/* banner part end */
+
+/* development part start */
+
+.--development{
+  padding: 100px;
+}
+
+.question{
+justify-content: center;
+align-items: center;
+}
+
+.question h1{
+  font-size:40px;
+  align-items: center;
+  margin-left: 400px;
+  margin-bottom: 30px;
+}
+
+.question p{
+color: #0D1321;
+margin-left: 200px;
+font-size: 18px;
+}
+
+.card{
+display: flex;
+padding-top: 100px;
+padding-bottom: 30px;
+justify-content: space-between;
+
+}
+
+
+
+
+
+.one{
+justify-content: start;
+align-items: start;
+}
+
+.one h1{
+  font-size:30px;;
+  margin-bottom: 30px;
+  color: #0D1321;
+}
+
+
+.one p{
+  font-size:18px;;
+  margin-bottom: 30px;
+  color: #605f6b;
+  font-style: normal;
+}
+
+.primary{
+background-color: #fff;
+color: #0D1321;
+padding: 10px 15px;
+border: 1px solid;
+border-color: #9f9fae;
+}
+
+.primary:hover{
+  background-color: #0D1321;
+  color: #fff;
+}
+
+.two{
+  justify-content: start;
+
+}
+
+.three img{
+ 
+   margin-left: 100px;
+}
+/* development part end */
+
+
+/* inspiration part start */
+
+.inspiration{
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+display: flex;
+}
+
+.inspiration_content{
+
+}
+
+.inspiration_content h1{
+  font-size:30px;;
+  margin-bottom: 20px;
+  color: #0D1321;
+  margin-left: 330px;
+}
+
+.inspiration_content p{
+  font-size:18px;;
+  margin-bottom: 50px;
+  color: #605f6b;
+  align-items: center;
+  margin-left: 200px;
+}
+
+/* indspiration part end */
+
+/* target part start */
+
+.my_target{
+padding-top: 60px;
+padding-bottom: 40px;
+}
+
+.target{
+  align-items: center;
+  justify-content: center;display: flex;
+}
+
+.target h1{
+  font-size:26px;;
+  margin-bottom: 20px;
+  color: #0D1321;
+  margin-left: 50px;
+}
+
+.target p{
+  font-size:18px;
+  color: #605f6b;
+  margin-bottom: 40px;
+}
+
+.three_card_section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.first_card{
+  background-color: #dcdce9;
+  padding: 50px 80px;
+  margin-right: 20px;
+}
+
+.first_card img{
+  margin-bottom: 20px;
+}
+
+.first_card h3{
+font-size: 20px;
+font-weight: bold;
+margin-bottom: 16px;
+}
+
+.first_card p{
+font-size: 14px;
+margin-bottom: 16px;
+color:#605f6b ;
+}
+
+.second_card{
+  padding: 50px 80px;
+  margin-right: 20px;
+  background-color: rgb(207, 221, 221);
+}
+
+.second_card img{
+  margin-bottom: 20px;
+}
+.second_card h3{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.second_card p{
+  font-size: 14px;
+margin-bottom: 16px;
+color:#605f6b ;
+}
+
+.third_card{
+  padding: 50px 80px;
+  margin-right: 20px;
+  background-color: rgb(213, 225, 221);
+}
+
+.third_card img{
+  margin-bottom: 20px;
+}
+
+.third_card h3{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.third_card p{
+  font-size: 14px;
+  margin-bottom: 16px;
+  color:#605f6b ;
+}
+  
+
+.primaryfirst{
+  background-color: #fff;
+  text-decoration-line: underline;
+  border: none;
+}
+
+.primaryfirst:hover{
+  background-color: #9f9fae;
+  color: #000;
+}
+/* target part end*/
+
+/* footer part start */
+
+.secondary_bg{
+  padding: 100px;
+}
+.footer-column{
+  background-image:url(imeges/handshake.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+  border-radius: 20px;
+  display: block;
+ 
+}
+
+.footer-content{
+justify-content: center;
+align-items: center;
+padding-left: 450px;
+padding-top: 90px;
+}
+
+.footer-content h2{
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  color: #181616;
+  padding-left: 70px;
+
+}
+
+.footer-content p{
+  font-size: 17px;
+  margin-bottom: 16px;
+  color:#d5d5d5 ;
+
+}
+
+.form{
+  display: flex;
+  align-items: center;
+  color: #e3e2f2;
+  font-size: 20px;
+  margin-left: 60px;
+
+}
+
+.input{
+ 
+}
+
+.footer-column2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  font-size: 22pxpx;
+}
+
+.icon{
+  margin-right: 50px;
+  align-items: center;
+  font-size: 10px;
+}
+
+.icon a{
+  margin-right: 10px;
+}
+/* footer part end */
